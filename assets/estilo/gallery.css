@@ -1,0 +1,31 @@
+.image-gallery{
+  padding: 1rem;
+}
+
+section {
+  padding-top: 0;
+  padding-bottom: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.masonry {
+  column-count: 4;     
+    column-gap: 1rem;
+  }
+
+  .masonry img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    break-inside: avoid; 
+  }
+
+  @media (max-width: 900px) {
+    .masonry { column-count: 2; }
+  }
+
+  @media (max-width: 600px) {
+    .masonry { column-count: 2; }
+  }
