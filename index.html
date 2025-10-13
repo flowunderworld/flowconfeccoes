@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Confecções - Serigrafia e Confecção Personalizada</title>
+    <link rel="stylesheet" href="assets/estilos/global.css">
+    <link rel="stylesheet" href="assets/estilos/header.css">
+    <link rel="stylesheet" href="assets/estilos/hero.css">
+    <link rel="stylesheet" href="assets/estilos/services.css">
+    <link rel="stylesheet" href="assets/estilos/portfolio.css">
+    <link rel="stylesheet" href="assets/estilos/process.css">
+    <link rel="stylesheet" href="assets/estilos/calculator.css"">
+    <link rel="stylesheet" href="assets/estilos/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="assets/imagens/logo.png" alt="Flow Confecções" class="logo-img">
+            </div>
+            <a href="#calculator" class="btn-orcamento">
+                Orçamento Rápido
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">Serviços de serigrafia<br>e Confecção Personalizada</h1>
+            <p class="hero-subtitle">Transformamos suas ideias em estampas de alta qualidade com técnicas modernas de serigrafia</p>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="arrow arrow-1"></div>
+            <div class="arrow arrow-2"></div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2 class="services-title">O que oferecemos</h2>
+            <div class="services-title-underline"></div>
+            <p class="services-description">
+                Contamos com soluções integradas para oferecer a nossos parceiros, o melhor custo benefício, nossa missão é impactar. Conheça nossos serviços.
+            </p>
+    
+            <div class="carousel-wrapper">
+                <div class="carousel" id="servicesCarousel">
+                    <div class="carousel-track">
+                        <!-- Card 1 -->
+                        <div class="service-card active" data-index="0">
+                            <div class="service-icon">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <h3 class="service-card-title">Peças Personalizadas</h3>
+                            <p class="service-card-description">
+                                Crie um senso de unidade e fortaleça sua mensagem com peças que refletem a identidade da sua igreja.
+                            </p>
+                        </div>
+    
+                        <!-- Card 2 -->
+                        <div class="service-card" data-index="1">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-desktop"></i>
+                            </div>
+                            <h3 class="service-card-title">Logo & Design</h3>
+                            <p class="service-card-description">
+                                Traduzimos sua visão em uma identidade visual forte que conecta e envolve sua comunidade.
+                            </p>
+                        </div>
+    
+                        <!-- Card 3 -->
+                        <div class="service-card" data-index="2">
+                            <div class="service-icon">
+                                <i class="fas fa-mug-hot"></i>
+                            </div>
+                            <h3 class="service-card-title">Comunicação Visual</h3>
+                            <p class="service-card-description">
+                                Transforme sua mensagem em itens que conectam pessoas e reforçam a identidade da igreja.
+                            </p>
+                        </div>
+    
+                        <!-- Card 4 -->
+                        <div class="service-card" data-index="3">
+                            <div class="service-icon">
+                                <i class="fas fa-boxes"></i>
+                            </div>
+                            <h3 class="service-card-title">Grandes Encomendas</h3>
+                            <p class="service-card-description">
+                                Soluções eficientes e econômicas para eventos e campanhas de grande escala.
+                            </p>
+                        </div>
+    
+                        <!-- Card 5 -->
+                        <div class="service-card" data-index="4">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-industry"></i>
+                            </div>
+                            <h3 class="service-card-title">Esteira de Produção</h3>
+                            <p class="service-card-description">
+                                Cuidamos de todo o processo, da matéria-prima à entrega, garantindo qualidade e agilidade.
+                            </p>
+                        </div>
+    
+                        <!-- Card 6 -->
+                        <div class="service-card" data-index="5">
+                            <div class="service-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3 class="service-card-title">Impacto</h3>
+                            <p class="service-card-description">
+                                Deixe sua marca em eventos e ações promocionais com produtos que destacam sua mensagem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-bullets" id="carouselBullets">
+                    <button class="bullet active" data-index="0" aria-label="Card 1"></button>
+                    <button class="bullet" data-index="1" aria-label="Card 2"></button>
+                    <button class="bullet" data-index="2" aria-label="Card 3"></button>
+                    <button class="bullet" data-index="3" aria-label="Card 4"></button>
+                    <button class="bullet" data-index="4" aria-label="Card 5"></button>
+                    <button class="bullet" data-index="5" aria-label="Card 6"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+            <h2 class="portfolio-title">O Nosso Portfólio</h2>
+            <div class="portfolio-title-underline"></div>
+
+            <div class="portfolio-carousel-wrapper">
+                <div class="portfolio-carousel" id="portfolioCarousel">
+                    <div class="portfolio-track">
+                        <!-- Slide 1 -->
+                        <div class="portfolio-slide active" data-index="0">
+                            <div class="portfolio-image-box">
+                                <img src="assets/imagens/portfolio/sevir.webp" alt="Projeto 1 - Imagem A" class="portfolio-img">
+                            </div>
+                            <div class="portfolio-image-box">
+                                <img src="assets/imagens/portfolio/ebenezer.webp" alt="Projeto 1 - Imagem B" class="portfolio-img">
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="portfolio-slide" data-index="1">
+                            <div class="portfolio-image-box">
+                                <img src="assets/imagens/portfolio/pertencer.webp" alt="Projeto 2 - Imagem A" class="portfolio-img">
+                            </div>
+                            <div class="portfolio-image-box">
+                                <img src="assets/imagens/portfolio/pastoral.webp" alt="Projeto 2 - Imagem B" class="portfolio-img">
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="portfolio-slide" data-index="2">
+                            <div class="portfolio-image-box">
+                                <img src="assets/imagens/portfolio/ecc.webp" alt="Projeto 3 - Imagem A" class="portfolio-img">
+                            </div>
+                            <div class="portfolio-image-box">
+                                <img src="assets/imagens/portfolio/fé.webp" alt="Projeto 3 - Imagem B" class="portfolio-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-bullets" id="portfolioBullets">
+                    <button class="bullet active" data-index="0" aria-label="Portfólio 1"></button>
+                    <button class="bullet" data-index="1" aria-label="Portfólio 2"></button>
+                    <button class="bullet" data-index="2" aria-label="Portfólio 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="process">
+        <div class="process-container">
+            <h2 class="process-title">Processo de Impressão</h2>
+            <div class="process-title-underline"></div>
+            <p class="process-description">
+                Descubra como nosso processo de impressão garante peças com qualidade superior, mais durabilidade e um acabamento que se destaca de qualquer outro.
+            </p>
+
+            <div class="process-carousel-wrapper">
+                <div class="process-carousel" id="processCarousel">
+                    <div class="process-track">
+                        <!-- Card 1 -->
+                        <div class="process-card active" data-index="0">
+                            <div class="process-icon">
+                                <img src="assets/imagens/processo/silk.png" alt="Ícone Serigrafia" class="process-icon-img">
+                            </div>
+                            <h3 class="process-card-title">Serigrafia</h3>
+                            <p class="process-card-description">
+                                A serigrafia é a técnica que utilizamos para trazer suas ideias para o mundo real. Com ela, conseguimos aplicar artes em diferentes superfícies, garantindo qualidade, durabilidade e um resultado fiel ao que você imaginou.
+                            </p>
+                        </div>
+            
+                        <!-- Card 2 -->
+                        <div class="process-card" data-index="1">
+                            <div class="process-icon">
+                                <img src="assets/imagens/processo/layer.png" alt="Ícone Qualidade Premium" class="process-icon-img">
+                            </div>
+                            <h3 class="process-card-title">As Camadas</h3>
+                            <p class="process-card-description">
+                                Cada estampa é construída em etapas. Trabalhamos em camadas para que cada detalhe fique nítido, vibrante e com acabamento profissional. Esse cuidado faz toda a diferença no resultado final.
+                            </p>
+                        </div>
+            
+                        <!-- Card 3 -->
+                        <div class="process-card" data-index="2">
+                            <div class="process-icon">
+                                <img src="assets/imagens/processo/tshirt.png" alt="Ícone Rapidez na Entrega" class="process-icon-img">
+                            </div>
+                            <h3 class="process-card-title">Cada cor, Uma tela</h3>
+                            <p class="process-card-description">
+                                Cada cor exige uma tela exclusiva. Isso garante precisão e intensidade em cada tom, deixando sua estampa mais viva e bem definida. Quanto mais cores, mais telas — e mais impacto visual no resultado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="process-bullets" id="processBullets">
+                    <button class="bullet active" data-index="0" aria-label="Processo 1"></button>
+                    <button class="bullet" data-index="1" aria-label="Processo 2"></button>
+                    <button class="bullet" data-index="2" aria-label="Processo 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+        <div class="calculator-container">
+            <h2 class="calculator-title">Calculadora de Orçamento</h2>
+            <div class="calculator-title-underline"></div>
+            <p class="calculator-description">
+                Configure seu pedido e receba o orçamento instantaneamente através da nossa ferramenta automatizada
+            </p>
+
+            <div class="calculator-form-wrapper">
+                <form id="budgetForm" class="calculator-form">
+                    <div class="form-group">
+                        <label for="product">Tipo de Produto</label>
+                        <select id="product" required>
+                            <option value="">Selecione...</option>
+                            <option value="poliester" data-price="37">Camiseta Poliéster - R$ 37,00</option>
+                            <option value="malha-fria" data-price="42">Camiseta Malha Fria - R$ 42,00</option>
+                            <option value="algodao" data-price="47">Camiseta Algodão 30.1 - R$ 47,00</option>
+                            <option value="polo" data-price="55">Camiseta Polo Piquet PA - R$ 55,00</option>
+                            <option value="oversized" data-price="60">Camiseta Oversized - R$ 60,00</option>
+                            <option value="moletom" data-price="65">Moletom - R$ 65,00</option>
+                            <option value="moletomCang" data-price="75">Moletom com Touca - R$ 75,00</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">Quantidade de Peças</label>
+                        <input type="number" id="quantity" min="1" value="10" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="colors">Número de Cores na Estampa</label>
+                        <select id="colors" required>
+                            <option value="">Selecione...</option>
+                            <option value="1">1 Cor (1 Tela)</option>
+                            <option value="2">2 Cores (2 Telas)</option>
+                            <option value="3">3 Cores (3 Telas)</option>
+                            <option value="4">4 Cores (4 Telas)</option>
+                            <option value="5">5 Cores (5 Telas)</option>
+                            <option value="6">6 Cores (6 Telas)</option>
+                        </select>
+                    </div>
+
+                    <div class="price-display">
+                        <h3>Valor Estimado Total</h3>
+                        <div class="price-value" id="totalPrice">R$ 0,00</div>
+                        <div class="price-breakdown">
+                            <small>Custo das telas: <span id="screensCost">R$ 0,00</span></small>
+                            <small>Valor das peças: <span id="piecesCost">R$ 0,00</span></small>
+                        </div>
+                    </div>
+
+                    <div class="summary" id="summary" style="display: none;">
+                        <h4>Resumo do Pedido</h4>
+                        <div class="summary-item">
+                            <span>Produto:</span>
+                            <strong id="summaryProduct">-</strong>
+                        </div>
+                        <div class="summary-item">
+                            <span>Quantidade:</span>
+                            <strong id="summaryQuantity">-</strong>
+                        </div>
+                        <div class="summary-item">
+                            <span>Cores (Telas):</span>
+                            <strong id="summaryColors">-</strong>
+                        </div>
+                    </div>
+
+                    <button type="button" class="whatsapp-btn" id="whatsappBtn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Enviar Orçamento pelo WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="new-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h1>Sua Missão<br> Nosso compromisso. <br> Juntos, <br> fazemos a diferença.</h1>
+            </div>
+            <div class="footer-column">
+                <h3>SÃO PAULO - ITAIM PAULISTA</h3>
+                <p><a href="mailto:flowconfeccoes@gmail.com">flowconfeccoes@gmail.com</a></p>
+                <p>+55 11 98465-1912</p>
+                <address>
+                    Rua Sebastião lopes Grandio,<br>
+                   31, Jardim nélia
+                </address>
+                <p><a href="https://maps.app.goo.gl/QVHovHkV28zMtytw7" target="_blank" class="map-link">Veja no mapa<i class="fas fa-external-link-alt"></i></a></p>
+            </div>
+  
+            <div class="footer-column">
+                <h3>Veja nossos<br>outros canais</h3>
+                <p><a href="#" class="newsletter-link">VEJA NOSSA LOJA<i class="fas fa-arrow-right"></i></a></p>
+                <h3 class="follow-us">Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://wa.me/5511984651912"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/flow.confeccoes/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="rights-reserved">
+        <p>&copy; 2025 Estamparia Flow Confecções.<br> All rights reserved.</p>
+    </div>
+
+    <a href="https://wa.me/5511984651912?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" style="position:fixed;bottom:20px;right:30px;" class="link-zap"> 
+        <svg enable-background="new 0 0 512 512" width="60" height="60" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#25D366"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg> 
+    </a>
+
+    <script src="scripts/logic/calculator.js"></script>
+    <script src="scripts/logic/carousel.js"></script>
+    <script src="scripts/logic/portfolio-carousel.js"></script>
+    <script src="scripts/logic/process-carousel.js"></script>
+    <script src="scripts/animations/anim.js"></script>
+</body>
+</html>
